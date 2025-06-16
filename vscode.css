@@ -1,0 +1,261 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0C1A1A;
+    color: #ffffff;
+}
+header {
+    background-color: #0C1A1A;
+    color: rgb(255, 253, 253);
+    padding: 1rem;
+}
+nav a {
+    color: rgb(255, 249, 249);
+    margin: 0 10px;
+    text-decoration: none;
+}
+main {
+    padding: 2rem;
+}
+.projet {
+    border: 1px solid #0C1A1A;
+    padding: 10px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+.skill {
+margin-bottom: 15px;
+text-align: left;
+max-width: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.skill span {
+display: block;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+.progress-bar {
+width: 100%;
+background-color: #6ACFC7;
+border-radius: 10px;
+overflow: hidden;
+}
+
+.progress {
+background-color: #dee4e4;
+color: rgb(19, 19, 19);
+padding: 5px;
+text-align: right;
+height: 30px;
+line-height: 30px;
+border-radius: 10px 0 0 10px;
+}
+
+
+.profile {
+text-align: center;
+margin-bottom: 40px;
+}
+
+.photo-profil {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+border: 3px solid #6ACFC7;
+box-shadow: 0 4px 10px rgba(235, 234, 234, 0.2);
+margin-bottom: 15px;
+}
+
+
+
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background: #0C1A1A;
+color: #f8f7f7;
+}
+
+h2 {
+text-align: center;
+color: #6ACFC7;
+margin-top: 40px;
+}
+
+#apropos .container {
+display: flex;
+text-align: justify;
+line-height: 1.6;
+justify-content: space-around;
+align-items: center;
+padding: 40px;
+background: #0C1A1A;
+border-top: 3px solid #00d1d1;
+}
+
+.text {
+width: 50%;
+}
+
+.text .blue {
+color: #00d1d1;
+font-weight: bold;
+}
+
+.btn-cv {
+display: inline-block;
+margin-top: 20px;
+padding: 10px 20px;
+background-color: #00d1d1;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+}
+
+.photo img {
+border-radius: 50%;
+width: 150px;
+border: 3px solid #3f4141;
+}
+
+.projets-container {
+display: flex;
+text-align: center;
+justify-content: center;
+gap: 20px;
+margin: 40px auto;
+flex-wrap: wrap;
+padding: 20px;
+}
+
+.carte-projet {
+background: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+width: 250px;
+text-align: center;
+}
+
+.carte-projet .tags {
+margin: 10px 0;
+font-size: 0.9em;
+color: #777;
+}
+
+.carte-projet button {
+background-color: #4900d1;
+color: white;
+padding: 10px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.separator {
+  border: line;
+  height: 2px;
+  background-color: #6ACFC7; 
+  margin: 10px auto 30px;
+  width: 100%;
+}
+
+#contact {
+  background-color: #0C1A1A;
+  padding: 40px 20px;
+  max-width: 500px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.05);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#contact h2 {
+  font-size: 24px;
+  color: #fafafa;
+  margin-bottom: 10px;
+}
+
+.intro-contact {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-size: 14px;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0C1A1A;
+  outline: none;
+}
+
+.contact-form button {
+  background-color: #6ACFC7;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0097a7;
+}
+
+
+footer { 
+  background-color: #6ACFC7;
+  color: #fafafa;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links li a {
+  color: #f9fafa;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+  color: #1e90ff;
+}
+
